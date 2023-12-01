@@ -183,6 +183,10 @@ h2 {
 
 }
 
+.brands-none {
+    display: none;
+}
+
 /*immagine banner*/
 .banner img {
     max-width: 100%;
@@ -225,6 +229,7 @@ footer {
     text-align: center;
     padding: 30px 0;
     line-height: 30px;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
 
 
 }
