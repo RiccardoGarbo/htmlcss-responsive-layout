@@ -24,7 +24,7 @@ body {
 }
 
 /*Header*/
-h1 {
+.booleano {
     font-family: 'Nerko One', cursive;
     font-weight: normal;
     font-size: 4rem;
@@ -162,7 +162,7 @@ h2 {
 }
 
 .link-social {
-    margin: 30px 0px;
+    margin: 30px 20px;
 
 }
 
@@ -171,6 +171,7 @@ h2 {
     display: flex;
     justify-content: space-around;
 
+
 }
 
 .link-social li {
@@ -178,9 +179,40 @@ h2 {
     background-color: white;
     border-radius: 20px;
 
+
 }
 
-img {
+/*immagine banner*/
+.banner img {
     max-width: 100%;
     display: none;
+}
+
+
+/*Section presentation*/
+.presentation {
+    padding-bottom: 2rem;
+}
+
+.presentation h1 {
+    font-size: 2.2rem;
+    padding-bottom: 30px;
+
+
+}
+
+.presentation img {
+    max-width: 65%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+#little-border {
+    border-bottom: 3px solid#F7972E;
+    padding-bottom: 10px;
+}
+
+.presentation p {
+    line-height: 30px;
 }
