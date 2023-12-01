@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Generics*/
+.container {
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 0px 2rem;
+}
+
+main {
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+
+}
+
+body {
+    background-color: #F6F5F3;
+}
+
+/*Header*/
+h1 {
+    font-family: 'Nerko One', cursive;
+    font-weight: normal;
+    font-size: 4rem;
+    color: #FF9614;
+    text-align: center;
+}
+
+header {
+    background-color: white;
+}
+
+/*main*/
+
+/*Sezione nome piatto e voto*/
+
+#recipe-type {
+    color: #999C9F;
+    font-size: 1.2rem;
+    display: block;
+    padding-top: 1.5rem;
+
+}
+
+.foodname-rate {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    align-items: center;
+}
+
+.fa-solid {
+    color: #F7972E
+}
+
+h2 {
+    font-size: 2rem;
+    color: #4E3969;
+}
+
+.name-rating {
+    font-size: 1.2rem;
+}
+
+#vote {
+    font-weight: bold;
+}
+
+#button-rate {
+    font-weight: bold;
+    background-color: #F7972E;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: white;
+    margin-right: 10px;
+
+}
+
+/*Sezione video con info della ricetta*/
+.tutorial-recipe {
+    background-color: white;
+    padding-bottom: 2rem;
+}
+
+.info-plus {
+    display: flex;
+    background-color: #F6F5F9;
+    justify-content: space-between;
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 10px;
+
+}
+
+.box {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.box2 {
+    background-color: #F6F5F9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.kcal {
+    background-color: #7B69A2;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+.info {
+    color: #F7972E;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.vegetable {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.vegetable .fa-solid {
+    color: black;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.box li {
+    margin: 20px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
