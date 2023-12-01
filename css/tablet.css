@@ -1,0 +1,81 @@
+#tiramisu-none {
+    display: none;
+}
+
+
+@media screen and (min-width:769px) {
+
+    /*comparsa dettaglio titolo piatto*/
+    #tiramisu-none {
+        display: inline-block;
+    }
+
+    /*containter aumentato*/
+    .container {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
+    /*titolo principale spostato a sinistra e rimpicciolito leggeremente*/
+    .booleano {
+        text-align: start;
+        font-size: 3rem;
+    }
+
+    #recipe-type {
+        font-size: 1rem;
+    }
+
+    .name-rating {
+        padding-top: 2rem;
+
+        ;
+    }
+
+    /*seziuone video adattata allo schermo*/
+
+    .video-recipe iframe {
+        width: 100%;
+    }
+
+    /*lista sotto al video*/
+    .box ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        flex-basis: 100%;
+    }
+
+    .box li {
+        flex-basis: calc(100% / 3);
+    }
+
+
+    /*link social*/
+    .link-social li {
+        padding: 10px 50px;
+    }
+
+
+    /*banner a comparsa*/
+    .banner img {
+        display: block;
+        width: 100%;
+        margin: 20px 30px;
+    }
+
+    /*sezione presentation*/
+    .presentation h1 {
+        font-size: 1.8rem;
+    }
+
+    .presentation img {
+        width: 40%;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+
+    }
+
+
+}
