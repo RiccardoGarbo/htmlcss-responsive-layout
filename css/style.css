@@ -142,3 +142,45 @@ h2 {
 .bold {
     font-weight: bold;
 }
+
+/*Sezione social*/
+.fa-facebook {
+    color: #1A77F3;
+}
+
+.fa-instagram {
+    color: #E05B8E;
+}
+
+.fa-pinterest {
+    color: #E62222;
+
+}
+
+.fa-youtube {
+    color: #E62222;
+}
+
+.link-social {
+    margin: 30px 0px;
+
+}
+
+.link-social ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.link-social li {
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+img {
+    max-width: 100%;
+    display: none;
+}
