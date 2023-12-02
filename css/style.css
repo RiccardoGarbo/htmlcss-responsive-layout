@@ -88,6 +88,12 @@ h2 {
     padding-bottom: 2rem;
 }
 
+iframe {
+    height: 450px;
+    width: 100%;
+    display: block;
+}
+
 
 .info-plus {
     display: flex;
@@ -213,9 +219,8 @@ h2 {
     margin-right: 10px;
     margin-bottom: 5px;
 
-
-
 }
+
 
 #little-border {
     border-bottom: 3px solid#F7972E;
